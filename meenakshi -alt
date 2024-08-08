@@ -1,0 +1,13 @@
+#import<stdio.h>
+	 int main(){
+	 	int si,t,r,p;
+	 	printf("enter si:");
+	 	scanf("%d",&si);
+	 	printf("enter r:");
+	 	scanf("%d",&r);
+	 	printf("enter p:");
+	 	scanf("%d",&p);
+	 	t=(si*100)/(p*r);
+	 	printf("%d",t);
+	 	return 0;
+	 }
